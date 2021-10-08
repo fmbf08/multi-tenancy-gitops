@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
-set -eo pipefail
-
+set -e pipefail
 SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 [[ -n "${DEBUG:-}" ]] && set -x
 
